@@ -1,0 +1,6 @@
+---
+applications:
+- name: date-service-kkk
+  memory: 1024M
+  host: date-service
+  domain: cfapps.io

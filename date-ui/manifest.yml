@@ -1,6 +1,6 @@
 ---
 applications:
-- name: date-service
-  host: date-service
+- name: date-ui
+  host: date-ui
   domain: cfapps.io
   buildpack: java_buildpack

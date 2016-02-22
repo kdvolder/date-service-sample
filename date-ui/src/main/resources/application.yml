@@ -15,7 +15,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-server-kdv.cfapps.io/eureka/
+      defaultZone: http://eureka-kdv.cfapps.io/eureka/
   instance:
     hostname: ${vcap.application.uris[0]}
     non-secure-port: 80

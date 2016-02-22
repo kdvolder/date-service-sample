@@ -2,5 +2,5 @@
 applications:
 - name: eureka-server
   memory: 1024M
-  host: eureka-server-kdv
+  host: eureka-kdv
   domain: cfapps.io

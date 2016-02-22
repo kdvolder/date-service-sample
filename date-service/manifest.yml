@@ -1,6 +1,7 @@
 ---
 applications:
 - name: date-service
-  host: date-service
+#  host: date-service
   domain: cfapps.io
+  random-route: true
   buildpack: java_buildpack

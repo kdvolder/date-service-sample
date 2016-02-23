@@ -11,12 +11,14 @@ public class DateController {
 	@RequestMapping("/")
 	public String main() {
 		//foofofof
+		System.out.println("fooooo");
 		return new Date().toString();
 	}
 
 	@RequestMapping("/date")
 	public String date() {
 		//foofofof
+		System.out.println("fooooo");
 		return new Date().toString();
 	}
 

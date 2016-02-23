@@ -12,11 +12,11 @@ public class DateUIController {
 	// date string fetched from 'date-service'
 	
 	@Autowired
-	private RestTemplate rest;
+	private DateServiceClient dates;
 	
 	@RequestMapping("/")
 	public String hello() {
-		return "The dateservice says: "+rest.getForObject("http://date-service/", String.class);
+		return "The dateservice says: "+dates.getDateString();
 	}
 	
 }

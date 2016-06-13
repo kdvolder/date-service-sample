@@ -9,6 +9,9 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
     register-with-eureka: false
+logging:
+  level:
+    com.github.kdvolder.date.ui.DateServiceFeignClient: debug
 ---
 spring:
   profiles: cloud

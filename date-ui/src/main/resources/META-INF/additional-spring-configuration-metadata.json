@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "ribbon.http.client.enabled",
+  "type": "java.lang.Boolean",
+  "description": "Enables customized rest template using ribbon to resolve virtual host names to service instances"
+}]}

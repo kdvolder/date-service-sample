@@ -12,7 +12,7 @@ public class DateServiceClient {
 	@Autowired
 	private RestTemplate rest;
 	
-//	@HystrixCommand(fallbackMethod="fallbackDateString")
+	@HystrixCommand(fallbackMethod="fallbackDateString")
 	public String getDateString() {
 		return rest.getForObject("http://date-service/", String.class);
 	}

@@ -1,2 +1,2 @@
-default.request-mapping.path=hystrix/monitor?stream\=http%3A%2F%2Flocalhost%3A8080%2Fhystrix.stream
+default.request-mapping.path=hystrix/monitor?stream\=http%3A%2F%2Fdate-ui.cfapps.io%2Fhystrix.stream
 eclipse.preferences.version=1

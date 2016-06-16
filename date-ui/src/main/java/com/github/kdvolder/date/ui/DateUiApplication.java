@@ -23,13 +23,9 @@ public class DateUiApplication {
     }
     
     @Bean
-    @LoadBalanced
-    RestTemplate restTemplate() {
-    	return new RestTemplate();
-    }
-    
-    @Bean
     Logger.Level feignLoggerLevel() {
+    	//Sets the level of detail Feign client logs.
+    	//Note that for this to take effect you must also set the logger.level.<ClientName>=debug in application.yml
     	return Level.BASIC;
     }
 }

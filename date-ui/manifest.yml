@@ -2,5 +2,4 @@
 applications:
 - name: date-ui
   host: date-ui
-  domain: cfapps.io
   buildpack: java_buildpack
